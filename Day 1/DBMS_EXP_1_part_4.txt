@@ -1,0 +1,17 @@
+create database COURSe;
+use COURSe;
+create table COURSe(courseno varchar(3),CourseDesc varchar(14),courseType char(1),semNo char(1),HallNo varchar(4),FacNo varchar(4));
+
+Output:---------
+
+desc COURSe;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| courseno   | varchar(3)  | YES  |     | NULL    |       |
+| CourseDesc | varchar(14) | YES  |     | NULL    |       |
+| courseType | char(1)     | YES  |     | NULL    |       |
+| semNo      | char(1)     | YES  |     | NULL    |       |
+| HallNo     | varchar(4)  | YES  |     | NULL    |       |
+| FacNo      | varchar(4)  | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+

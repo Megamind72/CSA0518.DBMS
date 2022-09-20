@@ -1,0 +1,14 @@
+Create database DEPARTMENT;
+use DEPARTMENT;
+create table DEPARTMENT(DeptNo varchar(4),DeptName varchar(15),DeptHead varchar(4));
+
+Output:-------
+
+desc DEPARTMENT;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| DeptNo   | varchar(4)  | YES  |     | NULL    |       |
+| DeptName | varchar(15) | YES  |     | NULL    |       |
+| DeptHead | varchar(4)  | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+

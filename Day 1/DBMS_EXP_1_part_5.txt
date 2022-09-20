@@ -1,0 +1,17 @@
+use FACULTY;
+ALTER TABLE FACULTY ADD (DeptNo varchar(15));
+
+Output:-------
+
+desc FACULTY;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| FacNo    | varchar(4)  | YES  |     | NULL    |       |
+| FacName  | varchar(15) | YES  |     | NULL    |       |
+| Gender   | char(1)     | YES  |     | NULL    |       |
+| DOB      | date        | YES  |     | NULL    |       |
+| DOJ      | date        | YES  |     | NULL    |       |
+| MobileN0 | int(10)     | YES  |     | NULL    |       |
+| DeptNo   | varchar(15) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
