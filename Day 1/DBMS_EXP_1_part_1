@@ -1,0 +1,18 @@
+create database STUDENT;
+
+use STUDENT;
+
+create table std_info(Name varchar(15),RegNo int(3),Gender varchar(1),DOB date,MobileNo int(10),city varchar(15));
+
+desc std_info;
+
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| Name     | varchar(15) | YES  |     | NULL    |       |
+| RegNo    | int(3)      | YES  |     | NULL    |       |
+| Gender   | varchar(1)  | YES  |     | NULL    |       |
+| DOB      | date        | YES  |     | NULL    |       |
+| MobileNo | int(10)     | YES  |     | NULL    |       |
+| city     | varchar(15) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
