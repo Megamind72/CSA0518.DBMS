@@ -1,0 +1,13 @@
+ALTER TABLE COURSE ADD CHECK (semNo >= 1 AND semNo <=6);
+Out put:--------
+desc course;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| courseno   | varchar(3)  | YES  |     | NULL    |       |
+| CourseDesc | varchar(14) | YES  |     | NULL    |       |
+| courseType | char(1)     | YES  |     | NULL    |       |
+| semNo      | char(1)     | YES  |     | NULL    |       |
+| HallNo     | varchar(4)  | YES  |     | NULL    |       |
+| FacNo      | varchar(4)  | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+

@@ -1,0 +1,29 @@
+ use STUDENT;
+ ALTER TABLE STUDENT ADD PRIMARY KEY(regno);
+output:-------
+desc STUDENT;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| regno    | int(3)      | NO   | PRI | 0       |       |
+| name     | varchar(15) | YES  |     | NULL    |       |
+| gender   | char(1)     | YES  |     | NULL    |       |
+| mobileno | int(10)     | YES  |     | NULL    |       |
+| city     | varchar(15) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+
+ALTER TABLE STUDENT MODIFY mobileno int(10) NOT NULL;
+
+output:-------
+
+desc STUDENT;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| regno    | int(3)      | NO   | PRI | 0       |       |
+| name     | varchar(15) | YES  |     | NULL    |       |
+| gender   | char(1)     | YES  |     | NULL    |       |
+| mobileno | int(10)     | NO   |     | NULL    |       |
+| city     | varchar(15) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+ 
