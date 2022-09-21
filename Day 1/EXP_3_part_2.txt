@@ -1,0 +1,10 @@
+UPDATE STUDENT SET regno = 171 WHERE regno = 165;
+output:-------
+select * from student;
++-------+-------+--------+-----------+---------+
+| regno | name  | gender | mobileno  | city    |
++-------+-------+--------+-----------+---------+
+|   161 | SAI   | M      | 987654930 | CHITOOR |
+|   171 | SRI   | F      |   8365647 | CHENNAI |
+|   192 | SAHOO | M      |     79845 | CHENNAI |
++-------+-------+--------+-----------+---------+

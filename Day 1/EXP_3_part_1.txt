@@ -1,0 +1,12 @@
+INSERT INTO STUDENT VALUES(192,'SAHOO','M',79845,'CHENNAI');
+INSERT INTO STUDENT VALUES(161,'SAI','M',987654930,'CHITOOR');
+ INSERT INTO STUDENT VALUES(165,'SRI','F',8365647,'CHENNAI');
+output:-------
+ SELECT * FROM student;
++-------+-------+--------+-----------+---------+
+| regno | name  | gender | mobileno  | city    |
++-------+-------+--------+-----------+---------+
+|   161 | SAI   | M      | 987654930 | CHITOOR |
+|   165 | SRI   | F      |   8365647 | CHENNAI |
+|   192 | SAHOO | M      |     79845 | CHENNAI |
++-------+-------+--------+-----------+---------+
