@@ -1,0 +1,12 @@
+ SELECT * FROM STUDENT
+ WHERE STUDENT.NAME LIKE '%ma' ;
+Empty set (0.12 sec)
+BECAUSE:
++-------+-------+--------+-----------+---------+-------------+
+| regno | name  | gender | mobileno  | city    | course_name |
++-------+-------+--------+-----------+---------+-------------+
+|   161 | SAI   | M      | 987654930 | CHITOOR | NULL        |
+|   171 | SRI   | F      |   8365647 | CHENNAI | NULL        |
+|   192 | SAHOO | M      |     79845 | CHENNAI | NULL        |
++-------+-------+--------+-----------+---------+-------------+
+there is no city name starts with '%ma'.

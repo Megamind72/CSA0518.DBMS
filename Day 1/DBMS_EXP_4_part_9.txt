@@ -1,0 +1,9 @@
+SELECT * FROM STUDENT WHERE CHAR_LENGTH(NAME) != 6;
++-------+-------+--------+-----------+----------+-------------+
+| regno | name  | gender | mobileno  | city     | course_name |
++-------+-------+--------+-----------+----------+-------------+
+|   155 | AJAI  | M      |  63587738 | MOTIHARI | C001        |
+|   161 | SAI   | M      | 987654930 | CHITOOR  | NULL        |
+|   171 | SRI   | F      |   8365647 | CHENNAI  | NULL        |
+|   192 | SAHOO | M      |     79845 | CHENNAI  | NULL        |
++-------+-------+--------+-----------+----------+-------------+

@@ -1,0 +1,8 @@
+ SELECT regno,name FROM STUDENT;
++-------+-------+
+| regno | name  |
++-------+-------+
+|   161 | SAI   |
+|   171 | SRI   |
+|   192 | SAHOO |
++-------+-------+
