@@ -1,0 +1,33 @@
+mysql> create database DATA;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> use DATA;
+Database changed
+mysql> create table Books(BNo int(10), BName varchar(30), Publisher_Name varchar(40), Publisher_Country varchar(50));
+Query OK, 0 rows affected (0.25 sec)
+
+mysql> insert into books values(2, "The Knight", "Jackson", "India");
+Query OK, 1 row affected (0.08 sec)
+
+mysql> insert into books values(2, "The cooking of spices", "Jackson", "India");
+Query OK, 1 row affected (0.16 sec)
+
+mysql> insert into books values(3, "Harry Potter", "J K", "USA");
+Query OK, 1 row affected (0.09 sec)
+
+mysql> insert into books values(3, "dragons love", "J K", "USA");
+Query OK, 1 row affected (0.17 sec)
+
+mysql> insert into books values(3, "my wifes memories", "jackson", "USA");
+Query OK, 1 row affected (0.05 sec)
+
+mysql> select * from books;
++------+-----------------------+----------------+-------------------+
+| BNo  | BName                 | Publisher_Name | Publisher_Country |
++------+-----------------------+----------------+-------------------+
+|    2 | The Knight            | Jackson        | India             |
+|    2 | The cooking of spices | Jackson        | India             |
+|    3 | Harry Potter          | J K            | USA               |
+|    3 | dragons love          | J K            | USA               |
+|    3 | my wifes memories     | jackson        | USA               |
++------+-----------------------+----------------+-------------------+

@@ -1,0 +1,42 @@
+create table hospital;
+ERROR 1113 (42000): A table must have at least 1 column
+mysql> create table hospital(p_no int(10),p_name varchar(10),admitted_DATE date,discharge_DATE date);
+Query OK, 0 rows affected (0.23 sec)
+
+mysql> insert into hospital values(678,"hari","2020-5-5","2021-5-5");
+Query OK, 1 row affected (0.14 sec)
+
+mysql> insert into hospital values(678,"ravi","2020-5-5","2021-6-5");
+Query OK, 1 row affected (0.14 sec)
+
+mysql> insert into hospital values(678,"ravi","2021-5-4","2021-6-7");
+Query OK, 1 row affected (0.05 sec)
+
+mysql> insert into hospital values(676,"ravi","2021-5-4","2021-6-7");
+Query OK, 1 row affected (0.06 sec)
+
+mysql> insert into hospital values(876,"giri","2021-5-4","2022-6-7");
+Query OK, 1 row affected (0.14 sec)
+
+mysql> select * from hospital;
++------+--------+---------------+----------------+
+| p_no | p_name | admitted_DATE | discharge_DATE |
++------+--------+---------------+----------------+
+|  678 | hari   | 2020-05-05    | 2021-05-05     |
+|  678 | ravi   | 2020-05-05    | 2021-06-05     |
+|  678 | ravi   | 2021-05-04    | 2021-06-07     |
+|  676 | ravi   | 2021-05-04    | 2021-06-07     |
+|  876 | giri   | 2021-05-04    | 2022-06-07     |
++------+--------+---------------+----------------+
+5 rows in set (0.00 sec)
+
+mysql> delete from hospital where p_no = 678;
+Query OK, 3 rows affected (0.17 sec)
+
+mysql> select * from hospital;
++------+--------+---------------+----------------+
+| p_no | p_name | admitted_DATE | discharge_DATE |
++------+--------+---------------+----------------+
+|  676 | ravi   | 2021-05-04    | 2021-06-07     |
+|  876 | giri   | 2021-05-04    | 2022-06-07     |
++------+--------+---------------+----------------+
