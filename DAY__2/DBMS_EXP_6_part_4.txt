@@ -1,0 +1,9 @@
+SELECT facname, DOB FROM FACULTY ORDER BY DOB;
++----------+------------+
+| facname  | DOB        |
++----------+------------+
+| SITA     | 1967-02-23 |
+| LAKSHMAN | 1975-02-15 |
+| RAM      | 1983-05-01 |
+| AMISHA   | 2002-02-15 |
++----------+------------+

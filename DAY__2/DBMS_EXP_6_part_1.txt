@@ -1,0 +1,7 @@
+ SELECT course_name, COUNT(regno) FROM STUDENT GROUP BY course_name;
++-------------+--------------+
+| course_name | COUNT(regno) |
++-------------+--------------+
+| NULL        |            3 |
+| C001        |            2 |
++-------------+--------------+

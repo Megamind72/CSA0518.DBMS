@@ -1,0 +1,10 @@
+ SELECT regno, name, gender, mobileno FROM STUDENT ORDER BY regno;
++-------+--------+--------+-----------+
+| regno | name   | gender | mobileno  |
++-------+--------+--------+-----------+
+|   153 | sanjai | M      |    837649 |
+|   155 | AJAI   | M      |  63587738 |
+|   161 | SAI    | M      | 987654930 |
+|   171 | SRI    | F      |   8365647 |
+|   192 | SAHOO  | M      |     79845 |
++-------+--------+--------+-----------+

@@ -1,0 +1,12 @@
+SELECT courseno, COUNT(courseno) FROM COURSE WHERE courseno = '01';
++----------+-----------------+
+| courseno | COUNT(courseno) |
++----------+-----------------+
+| 01       |               2 |
++----------+-----------------+ 
+SELECT courseno, COUNT(courseno) FROM COURSE WHERE courseno = '02';
++----------+-----------------+
+| courseno | COUNT(courseno) |
++----------+-----------------+
+| 02       |               2 |
++----------+-----------------+

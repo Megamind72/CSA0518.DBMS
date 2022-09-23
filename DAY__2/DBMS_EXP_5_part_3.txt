@@ -1,0 +1,6 @@
+ SELECT COURSE_NO, AVG(MARKS) FROM MARKS WHERE COURSE_NO = 'C002';
++-----------+------------+
+| COURSE_NO | AVG(MARKS) |
++-----------+------------+
+| C002      |    73.6667 |
++-----------+------------+

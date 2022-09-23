@@ -1,0 +1,6 @@
+SELECT COURSE_NO, MIN(MARKS), MAX(MARKS) FROM MARKS WHERE COURSE_NO = 'C021';
++-----------+------------+------------+
+| COURSE_NO | MIN(MARKS) | MAX(MARKS) |
++-----------+------------+------------+
+| C021      |         53 |         91 |
++-----------+------------+------------+

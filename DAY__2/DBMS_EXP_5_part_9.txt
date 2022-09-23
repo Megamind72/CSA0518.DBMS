@@ -1,0 +1,6 @@
+ SELECT COUNT(courseno) FROM COURSE;
++-----------------+
+| COUNT(courseno) |
++-----------------+
+|              10 |
++-----------------+

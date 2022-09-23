@@ -1,0 +1,10 @@
+ SELECT regno, COUNT(course_name) FROM STUDENT GROUP BY regno ;
++-------+--------------------+
+| regno | COUNT(course_name) |
++-------+--------------------+
+|   153 |                  1 |
+|   155 |                  1 |
+|   161 |                  0 |
+|   171 |                  0 |
+|   192 |                  0 |
++-------+--------------------+
